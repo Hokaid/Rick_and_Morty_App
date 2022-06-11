@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #000;
+  color: white;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.App-logo {
+  pointer-events: none;
+  margin: 12px;
+  width: 140px;
+  padding-left: 3rem;
+}
+
+.App-header > h2 {
+  padding-left: 25%;
+}
+
+.App-link {
+  color: #909090;
+}
+.App-link:hover{
+  color: #595959;
+}
+
+.App-content {
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  color: #000;
+  padding: 1rem;
+  padding-left: 4rem;
+}
+
+.home-title {
+  margin-bottom: 0;
+}
